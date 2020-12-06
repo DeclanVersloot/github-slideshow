@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Europees Stemmen</title>
+    <link href="CSS/Maincss.css" rel="stylesheet">
+    <link href="CSS/Nav.css" rel="stylesheet">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="mainNav">
+    <a class="navbar-brand" href="#">Stemsite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="partijen.html">Partijen</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="profiel.html">Profiel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <header class="bg-primary text-white">
+        <div class="container text-center">
+          <h1>Welkom op de Europe Stemsite!</h1>
+          <p class="lead">Hier kunt uw op de partijen stemmen.</p>
+        </div>
+      </header>  
+      <div class="container">
+          <div class="text-center">
+            <div class="container text-center">
+            <h1>Hoe werkt het?</h1>
+            <p class="lead">Op deze website zijn al de partijen te zien onder het kopje Partijen, deze is te zien boven aan de pagina. Als uw op dit kopje klikt wordt u naar een andere pagina gestuurd waar u de partijen kunt inzien. Zo kunt u zien waar u op stemt.</p>
+          </div>
+      </div>
+      </div>
+      <hr/>
+      <div class="form">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Voornaam</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Voornaam">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Achternaam</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Achternaam">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Partijen</label>
+            <select id="inputState" class="form-control">
+              <option selected>Kies Partij</option>
+              <option>...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+          <br/>
+          <button type="submit" class="btn btn-primary ">Sign in</button>
+        </div>
+      </form>
+      </div>
+    </div>
+    <hr/>
+      <footer class="py-5 bg-light">
+        <div class="container">
+          <p class="m-0 text-center">Copyright &copy; StemsiteNL</p>
+        </div>
+      </footer>
+</body>
+</html>    
